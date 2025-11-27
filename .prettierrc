@@ -1,0 +1,8 @@
+{
+	"experimentalOperatorPosition": "start",
+	"experimentalTernaries": true,
+	"objectWrap": "collapse",
+	"plugins": ["prettier-plugin-tailwindcss"],
+	"printWidth": 100,
+	"useTabs": true
+}

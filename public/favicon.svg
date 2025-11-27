@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <style>
+        text {
+            fill: #000;
+            font: 24px monospace;
+            translate: 0 2px;
+        }   
+    </style>
+    <rect x="0" y="0" width="64" height="64" fill="#fff"></rect>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">PB</text>
+</svg>

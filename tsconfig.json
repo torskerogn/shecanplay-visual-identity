@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"target": "es2023",
+		"esModuleInterop": true,
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"module": "Preserve",
+		"noEmit": true,
+		"lib": ["es2023", "dom", "dom.iterable"],
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"verbatimModuleSyntax": true,
+		"moduleResolution": "Bundler",
+		"forceConsistentCasingInFileNames": true,
+		"skipDefaultLibCheck": true
+	},
+	"include": ["**/*.ts", "**/*.tsx", "src/types/p5.d.ts"]
+}

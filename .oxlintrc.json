@@ -1,0 +1,66 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"plugins": [
+		"eslint",
+		"import",
+		"jsx-a11y",
+		"node",
+		"oxc",
+		"promise",
+		"regex",
+		"typescript",
+		"unicorn"
+	],
+	"categories": {
+		"correctness": "error",
+		"nursery": "warn",
+		"pedantic": "warn",
+		"perf": "warn",
+		"restriction": "warn",
+		"style": "warn",
+		"suspicious": "warn"
+	},
+	"rules": {
+		// Restriction
+		"eslint/no-console": "off",
+		"eslint/no-undefined": "off",
+		"import/unambiguous": "off",
+		"oxc/no-async-await": "off",
+		"oxc/no-optional-chaining": "off",
+		"oxc/no-rest-spread-properties": "off",
+
+		// Suspicious
+		"react/react-in-jsx-scope": "off",
+
+		// Pedantic
+		"eslint/max-depth": "off",
+		"eslint/max-lines": "off",
+		"eslint/max-lines-per-function": "off",
+		"eslint/require-await": "off",
+		"import/max-dependencies": "off",
+		"typescript/strict-boolean-expressions": "off",
+		"unicorn/prefer-top-level-await": "off",
+		"typescript/no-misused-promises": "off",
+
+		// Style
+		"eslint/id-length": "off",
+		"eslint/no-continue": "off",
+		"eslint/no-duplicate-imports": "off",
+		"eslint/no-magic-numbers": "off",
+		"eslint/no-nested-ternary": "off",
+		"eslint/no-ternary": "off",
+		"eslint/sort-imports": "off",
+		"eslint/sort-keys": "off",
+		"import/no-named-export": "off",
+		"import/no-namespace": "off",
+		"import/prefer-default-export": "off",
+		"promise/avoid-new": "off",
+		"promise/prefer-await-to-callbacks": "off",
+		"promise/prefer-await-to-then": "off",
+		"unicorn/no-nested-ternary": "off",
+		"unicorn/no-null": "off",
+
+		// Nursery
+		"eslint/no-undef": "off"
+	}
+}
